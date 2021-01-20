@@ -1,7 +1,7 @@
 #Solved on leetcode
 
-def detectCycle(self, head: ListNode) -> ListNode:
-    """Using Dictionary"""
+def detectCycle(self, head: ListNode) -> ListNode: #pylint: disable=undefined-variable
+    """Using Dictionary""" 
     a = {}
     while head:
         if head in a:
@@ -10,7 +10,7 @@ def detectCycle(self, head: ListNode) -> ListNode:
             a[head] = 1
         head = head.next
 
-def detectCycle(self, head: ListNode) -> ListNode:
+def detectCycle(self, head: ListNode) -> ListNode: # pylint: disable=bad-option-value,bad-option-value,undefined-variable,function-redefined
     """Tortoise and hare"""
     if head is None or head.next is None:
         return None
