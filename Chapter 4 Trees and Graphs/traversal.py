@@ -22,7 +22,7 @@ class Node:
         else:
             self.data = value
 
-    def in_order_print(self, ):
+    def in_order_print(self):
         if self.left:
             self.left.in_order_print()
         print(self.data)
