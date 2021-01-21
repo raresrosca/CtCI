@@ -4,7 +4,7 @@
 #         self.val = val
 #         self.next = next
 class Solution:
-    def swapNodes(self, head: ListNode, k: int) -> ListNode:
+    def swapNodes(self, head: ListNode, k: int) -> ListNode: # pylint: disable=undefined-variable
         if head is None:
             return 
         if head.next is None:
